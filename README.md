@@ -1,6 +1,6 @@
 # markdown-css-extension
 
-**Display images where you want and at the size you want, control alignment of text (center, right-align), ...**
+**Display images where you want and at the size you want, controle alignment of text (center, right-align), ..., all that directly in your markdown file**
 
 ## Installation
 
@@ -9,11 +9,16 @@
 3. Use the markup in your Markdown file as indicated below
 
 
+
 ## How to use
 
 ### Markdown Image Code:
 
 Allows to change the size, the alignment, the margin, and the style of the image: just add the following codes between the [] in Markdown Image code. 
+
+#### Example 
+
+See Example at: <http://gouillou.com/markdown-css-extension.html> 
 
 #### The codes
 - **Size :** 
@@ -23,13 +28,19 @@ Allows to change the size, the alignment, the margin, and the style of the image
 - **Margin :** m0, m1
 - **Style :** 3d, circle, rounded
 
-#### Example 
+#### How to modify
 
-See Example at: <http://gouillou.com/markdown-css-extension.html> 
+The "codes" are just CSS class names: you can do what you want easily.
+
 
 ## Markdown Blockquote Code
 
-Allows to change the appearance of text by using the blockquode mark (>):
+Allows to change the appearance of text by using the blockquode mark (>)
+
+#### Examples 
+
+See Examples of use of each code at: <http://gouillou.com/markdown-css-extension.html> 
+
 
 #### The codes
 
@@ -41,6 +52,7 @@ Allows to change the appearance of text by using the blockquode mark (>):
 	>>>>>> (6) Exergue
 	>>>>>>> (7) Exergue with blue line
 
-#### Examples
+#### How to modify
 
-See Examples at: <http://gouillou.com/markdown-css-extension.html> 
+You'll probably want to change the fonts indicated in the script. Beware: because of the cascade of blockquotes, the changes are more difficult (check the consequences!)
+
