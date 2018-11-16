@@ -22,5 +22,284 @@ MARKDOWN BLOCKQUOTE CODE:
 	>>>>> (5) Display as H2 without numerotation neither inclusion in TOC
 	>>>>>> (6) Exergue
 	>>>>>>> (7) Exergue with blue line
-*/ 
-img[alt~="h50"] {height: 50px;} img[alt~="h100"] {height: 100px;} img[alt~="h200"] {height: 200px;} img[alt~="hfull"] {height: 100%; min-height: 100%;} img[alt~="sixth"] {width: 16.67%;} img[alt~="third"] {width: 33.33%;} img[alt~="half"] {width: 50%;} img[alt~="twothird"] {mmin-width: 66.67%;} img[alt~="full"] {mmin-width: 100%;} img[alt~="100"] {width: 100px;} img[alt~="100sq"] {width: 100px; height: 100px;} img[alt~="150"] {width: 150px;} img[alt~="150sq"] {width: 150px; height: 150px;} img[alt~="200"] {width: 200px;} img[alt~="450"] {width: 450px;} img[alt~="600"] {mmin-width: 600px;} img[alt~="center"] {display: block; margin: 1em auto;} img[alt~="left"] {float: left; margin: 0 1em 1em 0;} img[alt~="right"] {float: right; margin: 0 0 1em 1em;} img[alt~="m0"] {margin: 0 0;} img[alt~="m1"] {margin: 1em 1em;} img[alt~="rounded"] {border-radius: 6px;} img[alt~="circle"] {border-radius: 50%;} img[alt~="3d"] {box-shadow: 4px 4px 8px #555;} figcaption {display: none;} img:before {content: " "; display: block; position: absolute; top: -10px; left: 0; height: calc(100% + 10px); width: 100%; background-color: rgb(230, 230, 230); border: 2px dotted rgb(200, 200, 200); border-radius: 5px;} img:after {content: "\f127" " Broken Image of " attr(alt); display: block; font-size: 16px; font-style: normal; font-family: FontAwesome; color: rgb(100, 100, 100); position: absolute; top: 5px; left: 0; width: 100%; text-align: center;} img[src="Error.src"], img[src="error.src"] {display: none;} blockquote {display: block; margin: 0; position: static; overflow: auto; -webkit-column-count: 1; -moz-column-count: 1; column-count: 1;} blockquote > p {padding: 0 45px; letter-spacing: 1px;} blockquote >:first-child {margin-top: 0;} blockquote>:last-child {margin-bottom: 0;} blockquote > blockquote > p {margin: 20px 60px; padding: 16px 20px; background-color: rgb(250, 250, 250);} blockquote > blockquote > p {color: #555; font-weight: normal; line-height: 25px; font-size: 15px; font-variant-caps: normal; font-feature-settings: 'smcp' 0; text-align: justify;} blockquote > blockquote > blockquote {margin: 0; padding: 0; background-color: #fff;} blockquote > blockquote > blockquote > p {background-color: #fff; font-size: 16px; font-style: normal; letter-spacing: .5px; text-align: center; padding-left: 0; padding-right: 0; margin: 16px 0;} blockquote > blockquote > blockquote > blockquote > p {background-color: #fff; text-align: right; padding: 0; margin: 16px 0;} blockquote > blockquote > blockquote > blockquote > blockquote > p {background-color: #fff; color: #4b4b4b; font-size: 28px; font-weight: bold; letter-spacing: 2px; line-height: 36px; margin: 20px 0; padding: 16px 0; font-variant-caps: small-caps; font-feature-settings: 'smcp' 1; text-align: left;} blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p {background-color: #fff; font-size: 20px; font-style: italic; font-weight: normal; letter-spacing: .5px; line-height: 30px; padding: 25px 90px; text-align: center; font-variant-caps: normal; font-feature-settings: 'smcp' 0; text-align: center;} blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > blockquote:before {background-color: #fff; display: block; margin: 1.5em auto 0 auto; content: ' '; width: 8%; height: 2px; background-color: rgb(59, 139, 186);} blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > blockquote:after {background-color: #fff; display: block; margin: 0 auto .8em auto; content: ' '; width: 8%; height: 2px; background-color: rgb(59, 139, 186);} blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > blockquote {-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-gap: 40px; -moz-column-gap: 40px; column-gap: 40px; margin: 16px 0 !important;} blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p {background: none; border: 0; color: #555; display: block; font-size: 16px; font-style: normal; font-weight: normal; letter-spacing: 0.3px; line-height: 25px; margin: 0 0; padding: 0; text-align: justify; text-indent: 0; position: static; overflow: visible; white-space: normal; word-break: normal; font-variant-caps: normal; font-feature-settings: 'smcp' 0;}
+*/
+
+img[alt~="h50"] {
+	height: 50px;
+}
+
+img[alt~="h100"] {
+	height: 100px;
+}
+
+img[alt~="h200"] {
+	height: 200px;
+}
+
+img[alt~="hfull"] {
+	height: 100%;
+	min-height: 100%;
+}
+
+img[alt~="sixth"] {
+	width: 16.67%;
+}
+
+img[alt~="third"] {
+	width: 33.33%;
+}
+
+img[alt~="half"] {
+	width: 50%;
+}
+
+img[alt~="twothird"] {
+	mmin-width: 66.67%;
+}
+
+img[alt~="full"] {
+	mmin-width: 100%;
+}
+
+img[alt~="100"] {
+	width: 100px;
+}
+
+img[alt~="100sq"] {
+	width: 100px;
+	height: 100px;
+}
+
+img[alt~="150"] {
+	width: 150px;
+}
+
+img[alt~="150sq"] {
+	width: 150px;
+	height: 150px;
+}
+
+img[alt~="200"] {
+	width: 200px;
+}
+
+img[alt~="450"] {
+	width: 450px;
+}
+
+img[alt~="600"] {
+	mmin-width: 600px;
+}
+
+img[alt~="center"] {
+	display: block;
+	margin: 1em auto;
+}
+
+img[alt~="left"] {
+	float: left;
+	margin: 0 1em 1em 0;
+}
+
+img[alt~="right"] {
+	float: right;
+	margin: 0 0 1em 1em;
+}
+
+img[alt~="m0"] {
+	margin: 0 0;
+}
+
+img[alt~="m1"] {
+	margin: 1em 1em;
+}
+
+img[alt~="rounded"] {
+	border-radius: 6px;
+}
+
+img[alt~="circle"] {
+	border-radius: 50%;
+}
+
+img[alt~="3d"] {
+	box-shadow: 4px 4px 8px #555;
+}
+
+figcaption {
+	display: none;
+}
+
+img:before {
+	content: " ";
+	display: block;
+	position: absolute;
+	top: -10px;
+	left: 0;
+	height: calc(100% + 10px);
+	width: 100%;
+	background-color: rgb(230, 230, 230);
+	border: 2px dotted rgb(200, 200, 200);
+	border-radius: 5px;
+}
+
+img:after {
+	content: "\f127" " Broken Image of " attr(alt);
+	display: block;
+	font-size: 16px;
+	font-style: normal;
+	font-family: FontAwesome;
+	color: rgb(100, 100, 100);
+	position: absolute;
+	top: 5px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+img[src="Error.src"], img[src="error.src"] {
+	display: none;
+}
+
+blockquote {
+	display: block;
+	margin: 0;
+	position: static;
+	overflow: auto;
+	-webkit-column-count: 1;
+	-moz-column-count: 1;
+	column-count: 1;
+}
+
+blockquote > p {
+	padding: 0 45px;
+	letter-spacing: 1px;
+}
+
+blockquote >:first-child {
+	margin-top: 0;
+}
+
+blockquote>:last-child {
+	margin-bottom: 0;
+}
+
+blockquote > blockquote > p {
+	margin: 20px 60px;
+	padding: 16px 20px;
+	background-color: rgb(250, 250, 250);
+}
+
+blockquote > blockquote > p {
+	color: #555;
+	font-weight: normal;
+	line-height: 25px;
+	font-size: 15px;
+	font-variant-caps: normal;
+	font-feature-settings: 'smcp' 0;
+	text-align: justify;
+}
+
+blockquote > blockquote > blockquote {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+
+blockquote > blockquote > blockquote > p {
+	background-color: #fff;
+	font-size: 16px;
+	font-style: normal;
+	letter-spacing: .5px;
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
+	margin: 16px 0;
+}
+
+blockquote > blockquote > blockquote > blockquote > p {
+	background-color: #fff;
+	text-align: right;
+	padding: 0;
+	margin: 16px 0;
+}
+
+blockquote > blockquote > blockquote > blockquote > blockquote > p {
+	background-color: #fff;
+	color: #4b4b4b;
+	font-size: 28px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 36px;
+	margin: 20px 0;
+	padding: 16px 0;
+	font-variant-caps: small-caps;
+	font-feature-settings: 'smcp' 1;
+	text-align: left;
+}
+
+blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p {
+	background-color: #fff;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: normal;
+	letter-spacing: .5px;
+	line-height: 30px;
+	padding: 25px 90px;
+	text-align: center;
+	font-variant-caps: normal;
+	font-feature-settings: 'smcp' 0;
+	text-align: center;
+}
+
+blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > blockquote:before {
+	background-color: #fff;
+	display: block;
+	margin: 1.5em auto 0 auto;
+	content: ' ';
+	width: 8%;
+	height: 2px;
+	background-color: rgb(59, 139, 186);
+}
+
+blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > blockquote:after {
+	background-color: #fff;
+	display: block;
+	margin: 0 auto .8em auto;
+	content: ' ';
+	width: 8%;
+	height: 2px;
+	background-color: rgb(59, 139, 186);
+}
+
+blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > blockquote {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	-webkit-column-gap: 40px;
+	-moz-column-gap: 40px;
+	column-gap: 40px;
+	margin: 16px 0 !important;
+}
+
+blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p {
+	background: none;
+	border: 0;
+	color: #555;
+	display: block;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: 0.3px;
+	line-height: 25px;
+	margin: 0 0;
+	padding: 0;
+	text-align: justify;
+	text-indent: 0;
+	position: static;
+	overflow: visible;
+	white-space: normal;
+	word-break: normal;
+	font-variant-caps: normal;
+	font-feature-settings: 'smcp' 0;
+}
