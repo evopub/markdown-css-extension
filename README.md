@@ -18,7 +18,7 @@ Allows to change the size, the alignment, the margin, and the style of the image
 
 #### Example 
 
-See Example at: <http://gouillou.com/markdown-css-extension.html> 
+See Example at: <http://gouillou.com/scripts/markdown-css-extension.html> 
 
 #### The codes
 - **Size :** 
@@ -39,7 +39,7 @@ Allows to change the appearance of text by using the blockquode mark (>)
 
 #### Examples 
 
-See Examples of use of each code at: <http://gouillou.com/markdown-css-extension.html> 
+See Examples of use of each code at: <http://gouillou.com/scripts/markdown-css-extension.html> 
 
 
 #### The codes
