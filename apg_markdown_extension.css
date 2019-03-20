@@ -8,7 +8,7 @@ MARKDOWN IMAGE CODE:
 	To be added in Markdown Image code: ![HERE](link). Example : ![half center 3d rounded](img-url)
 	- **Size :** 
    	 - **Width :** sixth, third, half, twothird, full, 100, 100sq, 150, 150sq, 200, 400, 450, 600
-  		- **height :** h50, h100, h200, hfull
+  		- **height :** h50, hhalf, h100, h200, hfull
 	- **Align :** center, left, right
 	- **Margin :** m0, m1
 	- **Style :** 3d, circle, rounded
@@ -36,6 +36,10 @@ img[alt~="h200"] {
 	height: 200px;
 }
 
+img[alt~="hhalf"] {
+	height: 50%;
+	min-height: 50%;
+}
 img[alt~="hfull"] {
 	height: 100%;
 	min-height: 100%;
