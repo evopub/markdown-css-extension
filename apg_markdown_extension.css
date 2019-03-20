@@ -1,4 +1,4 @@
-/* 
+/*
 MARKDOWN EXTENSION WITH CSS
 ©Philippe Gouillou | http://gouillou.com
 Licence: GNU GENERAL PUBLIC LICENSE Version 3
@@ -8,15 +8,15 @@ MARKDOWN IMAGE CODE:
 	To be added in Markdown Image code: ![HERE](link). Example : ![half center 3d rounded](img-url)
 	- **Size :** 
    	 - **Width :** sixth, third, half, twothird, full, 100, 100sq, 150, 150sq, 200, 400, 450, 600
-  		- **height :** h50, h100, h200, hhalf, hfull
+  		- **height :** h50, h100, h200, hfull
 	- **Align :** center, left, right
 	- **Margin :** m0, m1
 	- **Style :** 3d, circle, rounded
 
 MARKDOWN BLOCKQUOTE CODE: 
 
-	> (1) Norml Blockquote 
-	>> (2) Paragraph with grey background
+	> (1) Blockquote normal
+	>> (2) Grey background
 	>>> (3) Text-Align: Center
 	>>>> (4) Text-Align: Right 
 	>>>>> (5) Display as H2 without numerotation neither inclusion in TOC
@@ -39,11 +39,6 @@ img[alt~="h200"] {
 img[alt~="hfull"] {
 	height: 100%;
 	min-height: 100%;
-}
-
-img[alt~="hhalf"] {
-	height: 50%;
-	min-height: 50%;
 }
 
 img[alt~="sixth"] {
