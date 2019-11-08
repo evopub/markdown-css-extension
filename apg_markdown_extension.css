@@ -58,11 +58,11 @@ img[alt~="half"] {
 }
 
 img[alt~="twothird"] {
-	mmin-width: 66.67%;
+	min-width: 66.67%;
 }
 
 img[alt~="full"] {
-	mmin-width: 100%;
+	min-width: 100%;
 }
 
 img[alt~="100"] {
@@ -92,7 +92,7 @@ img[alt~="450"] {
 }
 
 img[alt~="600"] {
-	mmin-width: 600px;
+	min-width: 600px;
 }
 
 img[alt~="center"] {
