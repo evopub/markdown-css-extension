@@ -3,11 +3,13 @@ MARKDOWN EXTENSION WITH CSS
 ©Philippe Gouillou | http://gouillou.com
 Licence: GNU GENERAL PUBLIC LICENSE Version 3
 
+Version: 2.0 (2020-02-21)
+
 MARKDOWN IMAGE CODE:
 
 	To be added in Markdown Image code: ![HERE](link). Example : ![half center 3d rounded](img-url)
 	- **Size :** 
-   	 - **Width :** sixth, third, half, twothird, full, 100, 100sq, 150, 150sq, 200, 400, 450, 600
+   	 	- **Width :** sixth, third, half, twothird, full, 100, 100sq, 150, 150sq, 200, 400, 450, 600
   		- **height :** h50, hhalf, h100, h200, hfull
 	- **Align :** center, left, right
 	- **Margin :** m0, m1
@@ -24,146 +26,35 @@ MARKDOWN BLOCKQUOTE CODE:
 	>>>>>>> (7) Exergue with blue line
 */
 
-img[alt~="h50"] {
-	height: 50px;
-}
-
-img[alt~="h100"] {
-	height: 100px;
-}
-
-img[alt~="h200"] {
-	height: 200px;
-}
-
-img[alt~="hhalf"] {
-	height: 50%;
-	min-height: 50%;
-}
-img[alt~="hfull"] {
-	height: 100%;
-	min-height: 100%;
-}
-
-img[alt~="sixth"] {
-	width: 16.67%;
-}
-
-img[alt~="third"] {
-	width: 33.33%;
-}
-
-img[alt~="half"] {
-	width: 50%;
-}
-
-img[alt~="twothird"] {
-	min-width: 66.67%;
-}
-
-img[alt~="full"] {
-	min-width: 100%;
-}
-
-img[alt~="100"] {
-	width: 100px;
-}
-
-img[alt~="100sq"] {
-	width: 100px;
-	height: 100px;
-}
-
-img[alt~="150"] {
-	width: 150px;
-}
-
-img[alt~="150sq"] {
-	width: 150px;
-	height: 150px;
-}
-
-img[alt~="200"] {
-	width: 200px;
-}
-
-img[alt~="450"] {
-	width: 450px;
-}
-
-img[alt~="600"] {
-	min-width: 600px;
-}
-
-img[alt~="center"] {
-	display: block;
-	margin: 1em auto;
-}
-
-img[alt~="left"] {
-	float: left;
-	margin: 0 1em 1em 0;
-}
-
-img[alt~="right"] {
-	float: right;
-	margin: 0 0 1em 1em;
-}
-
-img[alt~="m0"] {
-	margin: 0 0;
-}
-
-img[alt~="m1"] {
-	margin: 1em 1em;
-}
-
-img[alt~="rounded"] {
-	border-radius: 6px;
-}
-
-img[alt~="circle"] {
-	border-radius: 50%;
-}
-
-img[alt~="3d"] {
-	box-shadow: 4px 4px 8px #555;
-}
-
-figcaption {
-	display: none;
-}
-
-img:before {
-	content: " ";
-	display: block;
-	position: absolute;
-	top: -10px;
-	left: 0;
-	height: calc(100% + 10px);
-	width: 100%;
-	background-color: rgb(230, 230, 230);
-	border: 2px dotted rgb(200, 200, 200);
-	border-radius: 5px;
-}
-
-img:after {
-	content: "\f127" " Broken Image of " attr(alt);
-	display: block;
-	font-size: 16px;
-	font-style: normal;
-	font-family: FontAwesome;
-	color: rgb(100, 100, 100);
-	position: absolute;
-	top: 5px;
-	left: 0;
-	width: 100%;
-	text-align: center;
-}
-
-img[src="Error.src"], img[src="error.src"] {
-	display: none;
-}
+img[alt~=h50]		{height:50px}
+img[alt~=h100]		{height:100px}
+img[alt~=h200]		{height:200px}
+img[alt~=hfull]		{height:100vh;}
+img[alt~=sixth]		{width:16.67%}
+img[alt~=third]		{width:33.33%}
+img[alt~=half]		{width:50%}
+img[alt~=twothird]	{width:66.67%}
+img[alt~=full]		{min-width:100%}
+img[alt~=100]		{width:100px}
+img[alt~=100sq]		{width:100px;height:100px}
+img[alt~=150]		{width:150px}
+img[alt~=150sq]		{width:150px;height:150px}
+img[alt~=200]		{width:200px}
+img[alt~=450]		{width:450px}
+img[alt~=600]		{width:600px}
+img[alt~=center]	{display:block;margin:1em auto}
+img[alt~=left]		{float:left;margin:0 1em 1em 0}
+img[alt~=right]		{float:right;margin:0 0 1em 1em}
+img[alt~=m0]		{margin:0 0}
+img[alt~=m1]		{margin:1em 1em}
+img[alt~=rounded]	{border-radius:6px}
+img[alt~=circle]	{border-radius:50%}
+img[alt~=3d]		{box-shadow:4px 4px 8px #555}
+figcaption			{display:none}
+@media(max-width: 576px)    {img[alt~=fullxs] {width:initial}}
+@media(max-width: 768px)    {img[alt~=fullsm] {width:initial}}
+@media(max-width: 992px)    {img[alt~=fullmd] {width:initial}}
+@media(max-width: 1200px)   {img[alt~=fulllg] {width:initial}}
 
 blockquote {
 	display: block;
